@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{600EFE11-BF0C-46D9-87F5-4751B1BF8EBB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Cage.Shell.Docking</RootNamespace>
+    <AssemblyName>Cage.Shell.Docking</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+    </Reference>
+    <Reference Include="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+    </Reference>
+    <Reference Include="gdk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+    </Reference>
+    <Reference Include="System.Xml">
+    </Reference>
+    <Reference Include="Mono.Cairo, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" />
+    <Reference Include="pango-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+    </Reference>
+    <Reference Include="gtk-dotnet, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+    </Reference>
+    <Reference Include="System.Core">
+    </Reference>
+    <Reference Include="Mono.Posix, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" />
+    <Reference Include="glib-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <Reference Include="atk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="DockBar.cs" />
+    <Compile Include="DockBarItem.cs" />
+    <Compile Include="DockContainer.cs" />
+    <Compile Include="DockFrame.cs" />
+    <Compile Include="DockFrameTopLevel.cs" />
+    <Compile Include="DockGroup.cs" />
+    <Compile Include="DockGroupItem.cs" />
+    <Compile Include="DockGroupType.cs" />
+    <Compile Include="DockItem.cs" />
+    <Compile Include="DockItemBehavior.cs" />
+    <Compile Include="DockItemContainer.cs" />
+    <Compile Include="DockItemStatus.cs" />
+    <Compile Include="DockItemToolbar.cs" />
+    <Compile Include="DockLayout.cs" />
+    <Compile Include="DockObject.cs" />
+    <Compile Include="DockPosition.cs" />
+    <Compile Include="PlaceholderWindow.cs" />
+    <Compile Include="ShadedContainer.cs" />
+    <Compile Include="TabStrip.cs" />
+    <Compile Include="AutoHideBox.cs" />
+    <Compile Include="HslColor.cs" />
+    <Compile Include="GtkUtil.cs" />
+    <Compile Include="TooltipWindow.cs" />
+    <Compile Include="WindowTransparencyDecorator.cs" />
+    <Compile Include="DragNotebook.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <EmbeddedResource Include="stock-auto-hide.png" />
+    <EmbeddedResource Include="stock-close-12.png" />
+    <EmbeddedResource Include="stock-dock.png" />
+    <EmbeddedResource Include="stock-menu-left-12.png" />
+    <EmbeddedResource Include="stock-menu-right-12.png" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+﻿<layouts>
+  <layout name="test" width="775" height="524" size="775" prefSize="775" defaultHorSize="-1" defaultVerSize="-1" type="Horizontal">
+    <group size="775" prefSize="775" defaultHorSize="241.7902325898" defaultVerSize="100" type="Tabbed">
+      <item size="0" prefSize="0" defaultHorSize="311.804657179819" defaultVerSize="100" id="left" visible="True" status="AutoHide" autoHidePosition="Top" autoHideSize="516" />
+      <item size="-1" prefSize="-1" defaultHorSize="100" defaultVerSize="100" id="top" visible="True" status="AutoHide" autoHidePosition="Top" autoHideSize="524" />
+      <item size="-1" prefSize="-1" defaultHorSize="100" defaultVerSize="100" id="bottom" visible="False" status="Floating" autoHideSize="501" floatX="587" floatY="272" floatWidth="775" floatHeight="526" />
+      <item size="NaN" prefSize="NaN" defaultHorSize="100" defaultVerSize="100" id="right" visible="False" status="Floating" autoHideSize="501" floatX="260" floatY="80" floatWidth="775" floatHeight="494" />
+    </group>
+    <item size="775" prefSize="775" defaultHorSize="100.25873221216" defaultVerSize="100" id="Documents" visible="True" status="AutoHide" autoHidePosition="Right" autoHideSize="310" />
+  </layout>
+</layouts>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DockToolbarFrameStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <version>2</version>
+  <layout id="">
+    <dockbar id="MyToolbar">
+      <visible>true</visible>
+      <dockedPosition offset="0" row="1" placement="Bottom" />
+    </dockbar>
+  </layout>
+</DockToolbarFrameStatus>

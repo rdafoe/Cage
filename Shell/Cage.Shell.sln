@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cage.Shell.Docking", "Docking\Cage.Shell.Docking.csproj", "{600EFE11-BF0C-46D9-87F5-4751B1BF8EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cage.Shell.Toolbars", "Toolbars\Cage.Shell.Toolbars.csproj", "{9AC0490E-D27A-4405-8A38-83D9E981777F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cage.Shell.Host", "Host\Cage.Shell.Host.csproj", "{61B96AAE-8FB1-4D82-B6DB-BD1FB0FC31CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{600EFE11-BF0C-46D9-87F5-4751B1BF8EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600EFE11-BF0C-46D9-87F5-4751B1BF8EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600EFE11-BF0C-46D9-87F5-4751B1BF8EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600EFE11-BF0C-46D9-87F5-4751B1BF8EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B96AAE-8FB1-4D82-B6DB-BD1FB0FC31CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B96AAE-8FB1-4D82-B6DB-BD1FB0FC31CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B96AAE-8FB1-4D82-B6DB-BD1FB0FC31CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B96AAE-8FB1-4D82-B6DB-BD1FB0FC31CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC0490E-D27A-4405-8A38-83D9E981777F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC0490E-D27A-4405-8A38-83D9E981777F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC0490E-D27A-4405-8A38-83D9E981777F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC0490E-D27A-4405-8A38-83D9E981777F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Host\Cage.Shell.Host.csproj
+	EndGlobalSection
+EndGlobal

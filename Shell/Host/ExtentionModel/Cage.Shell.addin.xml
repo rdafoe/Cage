@@ -1,0 +1,35 @@
+<Addin  id          = "Shell"
+      	namespace   = "Cage.Shell"
+      	name        = "Cage Shell"
+        author      = "Ron Dafoe"
+        copyright   = "LGPL"
+        url         = "http://www.cage.com"
+        description = "Computer Aided Gear Engineering Application."
+        category    = "Cage Shell"
+        isroot      = "true"
+        version     = "1.0"
+        compatVersion = "1.0">
+      
+      	! Tool Bar Extensions
+		<ExtensionNodeSet id="ToolbarNodeSet">
+       		<ExtensionNode name="ToolButton" type=Cage.Shell.ToolButtonNode />
+       		<ExtensionNode name="ToolSeparator" type=Cage.Shell.ToolSeparatorNode />       		
+        </ExtensionNodeSet> 
+       
+        
+       
+       
+        ! Menu Extensions
+		<ExtensionNodeSet id="MenuNodeSet">
+       		<ExtensionNode name="MenuItem" type=Cage.Shell.MenuItemNode />
+       		<ExtensionNode name="MenuSeparator" type=Cage.Shell.MenuSeparatorNode />
+       		<ExtensionNode name="Menu" type=Cage.Shell.SubmenuNode />       		
+       			</ExtensionNodeSet id="MenuNodeSet" />
+        </ExtensionNodeSet> 
+       
+       
+       <ExtensionPoint path="/Shell/MainMenu">
+       		<ExtensionNodeSet id=""/>
+       </ExtensionPoint>
+       
+</Addin>
